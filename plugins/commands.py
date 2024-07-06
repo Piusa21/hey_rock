@@ -70,12 +70,12 @@ async def start(client, message):
             logger.error("MAKE SURE BOT IS ADMIN IN FORCESUB CHANNEL")
             return
         btn = [
-            [
+            [            
                 InlineKeyboardButton(
-                    "JԾIN 1", url=invite_link.invite_link
+                    "JԾIN 1", url=CHNL_LNK
                 ),
                 InlineKeyboardButton(
-                    "JԾIN 2", url=CHNL_LNK
+                    "JԾIN 2", url=invite_link.invite_link
                 )
             ]
         ]
